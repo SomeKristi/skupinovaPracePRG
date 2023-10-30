@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Hra {
-    void vypisVyteze(){
+    void vypisViteze(){
         // Logika zde
     }
     public int nactiVolbuUzivatele(){
