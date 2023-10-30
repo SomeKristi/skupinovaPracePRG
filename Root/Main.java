@@ -9,7 +9,9 @@ class Main{
         if (volba == 1){
             Hra kamenNuzky = new Hra();
             int vyberUzivatele = kamenNuzky.nactiVolbuUzivatele();
-            // Načti volbu pc
+            int pc = kamenNuzky.pocitac();
+            System.out.println(kamenNuzky.vratVolbuPocitace());
+            
             // Vyhodnocení
         }
         else if (volba == 2){
