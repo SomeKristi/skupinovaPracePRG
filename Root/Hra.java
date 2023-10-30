@@ -1,5 +1,3 @@
-package Root;
-
 import java.util.Scanner;
 
 public class Hra {

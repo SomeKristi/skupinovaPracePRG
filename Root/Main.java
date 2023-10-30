@@ -1,5 +1,3 @@
-package Root;
-
 class Main{
     public static void main(String[] args) {
         Hra kamenNuzky = new Hra();
