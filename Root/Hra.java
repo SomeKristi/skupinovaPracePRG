@@ -14,4 +14,23 @@ public class Hra {
         }
         return 0;
     }
+        public int pocitac() {
+        Random rand = new Random();
+        int volbaPc = rand.nextInt(3)+1;
+        return randomInt;
+    }
+
+    public vratVolbuPocitace() {
+        public String volbaPC;
+        if (randomInt==1) {
+            volbaPC= "kámen";
+        }
+        else if (randomInt==2) {
+            volbaPC= "nůžky";
+        }
+        else {
+            volbaPC= "papír";
+        }
+        return "počítač vybral "+volbaPC;
+    }
 }
